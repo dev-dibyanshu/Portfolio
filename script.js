@@ -3,6 +3,11 @@ const scroll = new LocomotiveScroll({
     smooth: true
 });
 
+document.querySelector(".work-button a").addEventListener("click", (event) => {
+    event.preventDefault(); 
+    scroll.scrollTo("#page3"); 
+  });
+
 
 function page4Animation() {
     var elemC = document.querySelector("#elem-container")
@@ -55,11 +60,6 @@ function loaderAnimation() {
         loader.style.top = "-100%"
     }, 4200)
 }
-document.querySelector('.work-button').addEventListener('click', function () {
-    document.querySelector('#page3').scrollIntoView({ behavior: 'smooth' });
-  });
-
-
 
 swiperAnimation()
 page4Animation()
