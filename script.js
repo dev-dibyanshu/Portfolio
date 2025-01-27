@@ -3,7 +3,6 @@ const scroll = new LocomotiveScroll({
     smooth: true
 });
 
-
 function page4Animation() {
     var elemC = document.querySelector("#elem-container")
     var fixed = document.querySelector("#fixed-image")
