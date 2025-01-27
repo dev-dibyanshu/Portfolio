@@ -415,7 +415,7 @@ nav h3 {
 }
 
 .swiper img{
-    width: 600px;
+    width: 100%;
     transition: transform 0.3s ease;
     cursor: pointer;
 }
