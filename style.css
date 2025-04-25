@@ -36,8 +36,8 @@ html, body {
 #page1 {
     min-height: 100vh;
     width: 100%;
-    /* background-color: #EFEAE3; */
-     background-color: #e71b1b;
+    background-color: #EFEAE3;
+     /* background-color: #e71b1b; */
     position: relative;
     padding: 0 2vw;
 }
