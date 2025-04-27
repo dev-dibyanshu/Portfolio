@@ -372,8 +372,7 @@ nav h3 {
 
 
 #fixed-image {
-    height: 20
-    vw;
+    height: 20vw;
     width: 24vw;
     /* background-color: red; */
     border-radius: 15px;
